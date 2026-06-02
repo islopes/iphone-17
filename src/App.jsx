@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Highlights from "./components/Highights";
 import MainContent from "./components/MainContent ";
+import Colors from "./components/Colors";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Intro />
       <Highlights />
       <MainContent />
+      <Colors />
     </div>
   );
 }
