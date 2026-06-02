@@ -5,19 +5,19 @@ function Colors() {
     {
       id: "blue",
       name: "Titânio Azul",
-      image: "../../public/img/iphone-17-pro-blue.webp",
+      image: "../../public/img/iphone-17-pro-blue.png",
       colorClass: "bg-blue-500",
     },
     {
       id: "silver",
       name: "Titânio Prata",
-      image: "../../public/img/iphone-17-pro-silver.avif",
+      image: "../../public/img/iphone-17-pro-silver.png",
       colorClass: "bg-gray-300",
     },
     {
       id: "orange",
       name: "Titânio Orange",
-      image: "../../public/img/iphone-17-pro-orange.webp",
+      image: "../../public/img/iphone-17-pro-orange.png",
       colorClass: "bg-orange-500",
     },
   ];
@@ -42,7 +42,7 @@ function Colors() {
   const [selectedcolor, setSelectedColor] = useState("blue");
 
   return (
-    <section id="colors" className="bg-black py-20 px-8">
+    <section id="colors" className="bg-black py-20 px-8" id="cores">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl mb:text-6xl font-bold mb-4">
@@ -104,6 +104,14 @@ function Colors() {
               </ul>
             </div>
           ))}{" "}
+        </div>
+        <div className="text-center mt-12 ">
+          <button className="bg-blue-600 p-4 rounded-full hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-500/50 cursor-pointer text-lg font-medium mb-3">
+            Compre agora a partir de R$ 9.150
+          </button>
+          <p className="mt-2 text-gray-300">
+            Ou em até 12x de R$ 774,92 sem juros
+          </p>
         </div>
       </div>
     </section>

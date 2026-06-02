@@ -1,10 +1,10 @@
 function MainContent() {
   return (
-    <div id="camera" className="text-center ">
+    <div id="camera" className="text-center py-20 px-6 ">
       <h3 className="text-4xl fonte-bold mb-10">
         Sistema de câmera Pro avançado
       </h3>
-      <div className="grid grid-cols-3 gap-6 ">
+      <div className="grid grid-cols-3 gap-6 max-w-5xl mx-auto">
         <div className="bg-gray-900 rounded-2xl p-8 hover:scale-105 transition-all duration-300 cursor-pointer ">
           <div className="text-4xl font-bold text-blue-600 mb-4">48MP</div>
           <h4 className="text-xl font-semibold mb-2">Principal</h4>

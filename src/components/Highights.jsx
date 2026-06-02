@@ -1,9 +1,11 @@
 function Highlights() {
   return (
-    <section className="bg-black py-20 px-6" id="design">
+    <section className="bg-black py-20 px-6 flex justify-center " id="design">
       <div className="max-w-7xl max-auto">
         <div className="text-center mb-16">
-          <h2 className="text-5xl fonte-bold mb-4">Design revolucionário</h2>
+          <h2 className="text-5xl fonte-bold mb-4">
+            Tudo de tudo, no iPhone que é tudo.
+          </h2>
           <p>Cada detalhe foi pensado para criar a melhor experiência</p>
         </div>
 
@@ -16,17 +18,17 @@ function Highlights() {
             ></img>
             <h3 className="font-bold mb-2 text-3xl">Titânio Premium</h3>
             <p className="text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque, fuga corporis. Tenetur numquam quisquam sequi
-              voluptate sit quae sint optio tempora quasi asperiores, magnam
-              deleniti doloribus necessitatibus possimus repellendus nostrum!
+              Os modelos mais recentes de iPhone estão cheios de inovações. Eles
+              trazem recursos da Apple Intelligence para facilitar seu dia a
+              dia, como Inteligência Visual12 e Ferramentas de Escrita, além de
+              conexões rápidas e seguras Wi‑Fi 713, Bluetooth 6, 5G14 e eSIM15.
             </p>
           </div>
           {/* <div>*/}
-          <div className="bg-gray-900 rounded-3xl p-8">
+          <div className="bg-gray-900 rounded-3xl p-8 ">
             <img
-              className="w-full rounded-2xl mb-4"
-              src="../../public/img/Titânio.jpg"
+              className="w-full rounded-2xl mb-8  "
+              src="../../public/img/iphone-17-tela.png"
               alt="ios 2026"
             />
             <h3 className="font-bold mb-2 text-3xl">iOS 26</h3>
