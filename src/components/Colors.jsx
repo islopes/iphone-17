@@ -46,10 +46,11 @@ function Colors() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-5xl mb:text-6xl font-bold mb-4">
-            Escolha sua cor
+            Cores. Três opções ousadas para você escolher: iPhone 17 Pro
+            prateado.
           </h2>
           <p className="text-xl text-gray-400">
-            Quatro acabamentos em titânio refinado
+            Estrutura unibody em alumínio.
           </p>
         </div>
 

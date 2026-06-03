@@ -5,40 +5,21 @@ function Footer() {
       links: [
         "iphone 17 pro",
         "iphone 17 Pro Max",
-        "iOS 26",
-        "A18 Pro",
+        "Comprar modelos",
         "Acessórios",
       ],
     },
     {
-      title: "Comprar e Saber mais",
-      links: [
-        "iphone 17 pro",
-        "iphone 17 Pro Max",
-        "iOS 26",
-        "A18 Pro",
-        "Acessórios",
-      ],
+      title: "Especificações",
+      links: ["Características técnicas", "câmeras", "Bateria", "display"],
+    },
+    {
+      title: "Suporte",
+      links: ["Suporte ao iphone", "AppleCare+", "iOS 19", "Contato"],
     },
     {
       title: "Comprar e Saber mais",
-      links: [
-        "iphone 17 pro",
-        "iphone 17 Pro Max",
-        "iOS 26",
-        "A18 Pro",
-        "Acessórios",
-      ],
-    },
-    {
-      title: "Comprar e Saber mais",
-      links: [
-        "iphone 17 pro",
-        "iphone 17 Pro Max",
-        "iOS 26",
-        "A18 Pro",
-        "Acessórios",
-      ],
+      links: ["Sobre a Apply", "Newsroom", "Privacidade", "Carreiras"],
     },
   ];
 

@@ -33,7 +33,7 @@ function Highlights() {
             />
             <h3 className="font-bold mb-2 text-3xl">iOS 26</h3>
             <p className="text-gray-300">
-              O sistema operacionaç mais avançado do mundo com IA integrada
+              O sistema operacional mais avançado do mundo com IA integrada
             </p>
           </div>
         </div>
